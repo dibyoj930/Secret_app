@@ -31,10 +31,10 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-CLIENT_ID="527282072428-vej540mhv1iv0k3htfra5teg2n0osv1q.apps.googleusercontent.com";
-CLIENT_SECRET="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";
+CLIENT_ID="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+CLIENT_SECRET="XXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
-mongoose.connect("mongodb+srv://Dibyo:123@cluster3.ejeplzg.mongodb.net/usersdb",{useNewUrlParser: true});
+mongoose.connect("mongodb+srv:XXXXXXXXXXXXXXXXXXXXXXX",{useNewUrlParser: true});
 
 const userschema = new mongoose.Schema({
     email:String,
